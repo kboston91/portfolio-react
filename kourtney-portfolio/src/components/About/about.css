@@ -23,7 +23,7 @@
   position: absolute;
   top: 50px;
   left: 50px;
-  background-color: silver;
+  background-color: pink;
   
 }
 
@@ -35,7 +35,7 @@
   overflow: hidden;
 }
 .a-img{
-  width: 100%;
+  width: 108%;
   height: 100%;
   object-fit: cover;
   border-radius: 20px;
@@ -43,9 +43,11 @@
 }
 
 .a-cert-img{
-  width: 120px;
-  height: 120px;
+  width: 240px;
+  height: 240px;
   border-radius: 20px;
+  border: 1px solid pink;
+  margin-right: 10px;
 }
 .a-title{
   font-weight: 400;
@@ -72,6 +74,6 @@
 
 .a-cert-title{
   font-weight: bold;
-  color: navy;
+  color: black;
   margin-bottom: 10px;
 }

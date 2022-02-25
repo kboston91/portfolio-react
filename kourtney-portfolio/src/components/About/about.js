@@ -1,5 +1,5 @@
 import './about.css';
-import ABOUT from '../../image/image.png';
+import ABOUT from '../../image/a-img.gif';
 import cert from '../../image/kbostoncert.png';
 
 const About = () => {
