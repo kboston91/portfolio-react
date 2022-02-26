@@ -12,6 +12,7 @@ const Skills = () => {
         <h2 className='s-title'>Skills I've Learned</h2>
         <div style={{color:darkMode ? 'black': 'black'}} className='s-card-list' >
         <div className='s-card'>
+          <div className='s-card-content'>
           <h5 className='s-card-title'>Front-end</h5>
           <ul>
             <li>HTML</li>
@@ -20,6 +21,7 @@ const Skills = () => {
             <li>Responsive Design</li>
             <li>React</li>
           </ul>
+        </div>
         </div>
         <div className='s-card'>
           <h5 className='s-card-title'>Back-end</h5>

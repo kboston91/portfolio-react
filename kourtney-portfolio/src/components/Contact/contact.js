@@ -70,7 +70,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="c-right">
+        <div style={{backgroundColor:darkMode ? 'black': 'white'}} className="c-right">
           <p className="c-desc">
             <b>How can I help?</b> Whether it's for a full-time role,
             freelancing project, or contract position, I'm eager to take on

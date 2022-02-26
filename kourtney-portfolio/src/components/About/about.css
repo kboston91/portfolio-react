@@ -35,12 +35,12 @@
   overflow: hidden;
 }
 .a-img{
-  width: 108%;
+  width: 100%;
   height: 100%;
   object-fit: contain;
   border-radius: 20px;
   position: absolute;
-  
+  padding-top: 5px;
 }
 
 .a-cert-img{
@@ -52,6 +52,7 @@
 }
 .a-title{
   font-weight: 400;
+
 }
 
 .a-sub{
@@ -96,16 +97,15 @@
 
     
   }
-  .a-title{
+  /* .a-title{
     margin-top: 0px;
-  }
+  } */
   .a-card{
     height: 30vh;
   }
   
   .a-card.bg, .a-sub, .a-cert {
     display: none;
-    justify-content: center;
   }
   .a-desc{
     font-weight: 300;
@@ -113,5 +113,6 @@
   }
   .a-right{
     padding:20px;
+
   }
 }
