@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-.pl-texts{
+.pl-title{
   font-size: 50px;
   font-weight: 600;
 }
@@ -20,4 +20,22 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
+}
+
+@media screen and (max-width:992px) {
+  .pl{
+    padding: 10px;
+    
+  }
+  .pl-texts{
+    width:100%;
+  }
+  .pl-title{
+    font-size: 25px;
+    font-weight: 400;
+  }
+
+  .pl-desc{
+    display: none;
+  }
 }

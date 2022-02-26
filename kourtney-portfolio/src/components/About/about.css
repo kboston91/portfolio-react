@@ -39,12 +39,13 @@
   height: 100%;
   object-fit: cover;
   border-radius: 20px;
+  /* position: absolute; */
   
 }
 
 .a-cert-img{
-  width: 240px;
-  height: 240px;
+  width: 300px;
+  height:180px;
   border-radius: 20px;
   border: 1px solid pink;
   margin-right: 10px;
@@ -54,7 +55,8 @@
 }
 
 .a-sub{
-  margin: 20px 0px 
+  margin: 20px 0px;
+  font-weight: 300;
 }
 
 .a-desc{
@@ -62,7 +64,7 @@
 }
 
 .a-cert{
-  margin-top: 50px;
+  margin-top: 25px;
   display:flex;
   align-items: center;
   justify-content: space-between;
@@ -70,10 +72,45 @@
 
 .a-cert-texts{
   width: 70%;
+  text-align: center;
 }
 
 .a-cert-title{
   font-weight: bold;
   color: black;
   margin-bottom: 10px;
+}
+@media screen and (max-width:992px) {
+  .a {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0px;
+  }
+  .a-img{
+    object-fit: contain;
+  }
+
+  .a-left{
+    width:100%;
+
+    
+  }
+  .a-title{
+    margin-top: 0px;
+  }
+  .a-card{
+    height: 30vh;
+  }
+  
+  .a-card.bg, .a-sub, .a-cert {
+    display: none;
+    justify-content: center;
+  }
+  .a-desc{
+    font-weight: 300;
+    font-size: large;
+  }
+  .a-right{
+    padding:20px;
+  }
 }
