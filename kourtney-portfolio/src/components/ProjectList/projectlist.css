@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+.pl-texts{
+  width: 75%;
+}
+
 .pl-title{
   font-size: 50px;
   font-weight: 600;
@@ -13,6 +17,9 @@
 
 .pl-desc{
   margin: 20px 0px;
+  /* padding: 20px; */
+  width:100%;
+  text-align: center;
 }
 
 .pl-list{

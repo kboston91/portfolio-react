@@ -16,7 +16,7 @@
 
 .a-right {
   flex: 1;
-
+  padding-right: 20px;
 }
 
 .a-card.bg{
@@ -28,7 +28,7 @@
 }
 
 .a-card{
-  width:60%;
+  width:50%;
   height: 70vh;
   border-radius: 30px;
   position: relative;
@@ -37,9 +37,9 @@
 .a-img{
   width: 108%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 20px;
-  /* position: absolute; */
+  position: absolute;
   
 }
 
@@ -88,6 +88,7 @@
   }
   .a-img{
     object-fit: contain;
+    position: static;
   }
 
   .a-left{
